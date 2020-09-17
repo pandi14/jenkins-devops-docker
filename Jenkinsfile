@@ -1,12 +1,3 @@
-#node {
-#	stage('Build') {
-#		echo "Build"
-#	}
-#	stage('Test') {
-#		echo "Test"
-#	}
-#}
-
 pipelin{
 	agent{ docker { image 'maven:3.6.3'} }
 	stages{
